@@ -1,0 +1,71 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* ::after,::before{
+box-sizing: border-box;
+} */
+.fixed-top {
+position: fixed;
+z-index: 1030;
+background-color: #0B65C6;
+}
+
+.home{
+padding-top: 5rem;
+background-color: #0B65C6;
+}
+
+.row{
+  display:flex;
+}
+
+.trustlogo{
+  width: 2rem;
+  height: 2rem;
+  border-radius: .55rem;
+
+}
+
+.navbar-nav a{
+  color:white;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.nav-link:hover,.earn-button:hover{
+  color:#89bcf2;
+}
+
+.earn-button{
+  width: 75px;
+  background-color: white;
+  color: #0B65C6;
+  border: none;
+  border-radius: 4px;
+  font-weight:bold;
+  font-size: 0.75rem;
+}
+
+.heading{
+  font-size: 3rem;
+  font-weight:700;
+  color:white;
+
+}
+.p-head{
+font-size:x-large;
+color:white;
+}
+
+.googleplay,.apple,.android{
+cursor: pointer;
+}
+
+
+/* @media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+} */
